@@ -29,6 +29,7 @@ void loop() {
       Serial.println("UP");
       digitalWrite(UP_PIN, 1);
     }
+    // on : e0e040bf
 
     digitalWrite(LED_PIN, 1);
     irrecv.resume(); // Receive the next value
